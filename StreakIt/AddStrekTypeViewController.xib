@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddStrekTypeViewController" customModule="StreakIt" customModuleProvider="target">
+            <connections>
+                <outlet property="streakTextField" destination="671-d8-8dm" id="jQg-iw-Wwk"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Streak Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="671-d8-8dm">
+                    <rect key="frame" x="40" y="54" width="240" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Streak Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUJ-bp-ZGZ">
+                    <rect key="frame" x="97" y="25" width="126.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJh-6F-lNe">
+                    <rect key="frame" x="125.5" y="93" width="69" height="41"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <state key="normal" title="Create"/>
+                    <connections>
+                        <action selector="createTapped:" destination="-1" eventType="touchUpInside" id="CSY-KN-50c"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KZg-3o-4dk">
+                    <rect key="frame" x="136" y="148" width="48" height="30"/>
+                    <state key="normal" title="Cancel">
+                        <color key="titleColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelTapped:" destination="-1" eventType="touchUpInside" id="0xf-QV-01e"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="pJh-6F-lNe" firstAttribute="top" secondItem="671-d8-8dm" secondAttribute="bottom" constant="9" id="4Et-wY-r3V"/>
+                <constraint firstItem="KZg-3o-4dk" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="AvP-Yj-vdM"/>
+                <constraint firstItem="hUJ-bp-ZGZ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="5" id="Vo0-vg-0hR"/>
+                <constraint firstItem="KZg-3o-4dk" firstAttribute="top" secondItem="pJh-6F-lNe" secondAttribute="bottom" constant="14" id="ZMO-ap-UEX"/>
+                <constraint firstItem="hUJ-bp-ZGZ" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="g4z-cu-rWO"/>
+                <constraint firstItem="671-d8-8dm" firstAttribute="top" secondItem="hUJ-bp-ZGZ" secondAttribute="bottom" constant="8" id="jr9-AE-wcj"/>
+                <constraint firstItem="pJh-6F-lNe" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="l4z-fG-azB"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="671-d8-8dm" secondAttribute="trailing" constant="40" id="p8w-zo-eEp"/>
+                <constraint firstItem="671-d8-8dm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="40" id="ylk-8K-PUC"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="cS2-Ym-wsL">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+        </tableView>
+    </objects>
+</document>

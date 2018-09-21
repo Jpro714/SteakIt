@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18A391" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DayNote" representedClassName=".DayNote" syncable="YES">
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="day" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="StreakDay" inverseName="note" inverseEntity="StreakDay" syncable="YES"/>
+    </entity>
+    <entity name="StreakDay" representedClassName=".StreakDay" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="hasNote" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="responseGiven" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="success" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="note" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="DayNote" inverseName="day" inverseEntity="DayNote" syncable="YES"/>
+        <relationship name="type" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="StreakType" inverseName="days" inverseEntity="StreakType" syncable="YES"/>
+    </entity>
+    <entity name="StreakType" representedClassName=".StreakType" syncable="YES">
+        <attribute name="bestStreak" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="currentStreak" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="days" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="StreakDay" inverseName="type" inverseEntity="StreakDay" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DayNote" positionX="-54" positionY="27" width="128" height="75"/>
+        <element name="StreakDay" positionX="-63" positionY="-18" width="128" height="135"/>
+        <element name="StreakType" positionX="-54" positionY="18" width="128" height="105"/>
+    </elements>
+</model>

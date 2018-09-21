@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0333F5BE21C72A72003E43E7 /* DayNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333F5BD21C72A72003E43E7 /* DayNote.swift */; };
+		0333F5C221C743B4003E43E7 /* file-text.png in Resources */ = {isa = PBXBuildFile; fileRef = 0333F5C121C743B4003E43E7 /* file-text.png */; };
+		03D423E6217699E00019F25C /* AddDayNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D423E4217699E00019F25C /* AddDayNoteViewController.swift */; };
+		03D423E7217699E00019F25C /* AddDayNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D423E5217699E00019F25C /* AddDayNoteViewController.xib */; };
+		03EB3A5521C5D985008733ED /* StreakTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EB3A5321C5D985008733ED /* StreakTitleTableViewCell.swift */; };
+		AB0EE683215485730091A7BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0EE682215485730091A7BE /* AppDelegate.swift */; };
+		AB0EE685215485730091A7BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0EE684215485730091A7BE /* ViewController.swift */; };
+		AB0EE688215485730091A7BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0EE686215485730091A7BE /* Main.storyboard */; };
+		AB0EE68B215485730091A7BE /* StreakIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB0EE689215485730091A7BE /* StreakIt.xcdatamodeld */; };
+		AB0EE68D215485730091A7BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB0EE68C215485730091A7BE /* Assets.xcassets */; };
+		AB0EE690215485730091A7BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0EE68E215485730091A7BE /* LaunchScreen.storyboard */; };
+		AB264B7F21548B5900EF14FE /* AddStrekTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB264B7D21548B5900EF14FE /* AddStrekTypeViewController.swift */; };
+		AB264B8021548B5900EF14FE /* AddStrekTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB264B7E21548B5900EF14FE /* AddStrekTypeViewController.xib */; };
+		AB264B8521548FD900EF14FE /* StreakType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB264B8421548FD900EF14FE /* StreakType.swift */; };
+		AB264B872154910500EF14FE /* StreakDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB264B862154910500EF14FE /* StreakDay.swift */; };
+		AB43EEC521589F07003AC606 /* StreakDateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43EEC321589F07003AC606 /* StreakDateTableViewCell.swift */; };
+		AB43EEC621589F07003AC606 /* StreakDateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB43EEC421589F07003AC606 /* StreakDateTableViewCell.xib */; };
+		ABEF47692154B7B900987702 /* StreakDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEF47672154B7B900987702 /* StreakDetailViewController.swift */; };
+		ABEF476A2154B7B900987702 /* StreakDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABEF47682154B7B900987702 /* StreakDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0333F5BD21C72A72003E43E7 /* DayNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayNote.swift; sourceTree = "<group>"; };
+		0333F5C121C743B4003E43E7 /* file-text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file-text.png"; sourceTree = "<group>"; };
+		03D423E4217699E00019F25C /* AddDayNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDayNoteViewController.swift; sourceTree = "<group>"; };
+		03D423E5217699E00019F25C /* AddDayNoteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddDayNoteViewController.xib; sourceTree = "<group>"; };
+		03EB3A5321C5D985008733ED /* StreakTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakTitleTableViewCell.swift; sourceTree = "<group>"; };
+		AB0EE67F215485730091A7BE /* StreakIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreakIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0EE682215485730091A7BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB0EE684215485730091A7BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB0EE687215485730091A7BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB0EE68A215485730091A7BE /* StreakIt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StreakIt.xcdatamodel; sourceTree = "<group>"; };
+		AB0EE68C215485730091A7BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB0EE68F215485730091A7BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB0EE691215485730091A7BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB264B7D21548B5900EF14FE /* AddStrekTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStrekTypeViewController.swift; sourceTree = "<group>"; };
+		AB264B7E21548B5900EF14FE /* AddStrekTypeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddStrekTypeViewController.xib; sourceTree = "<group>"; };
+		AB264B8421548FD900EF14FE /* StreakType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakType.swift; sourceTree = "<group>"; };
+		AB264B862154910500EF14FE /* StreakDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakDay.swift; sourceTree = "<group>"; };
+		AB43EEC321589F07003AC606 /* StreakDateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakDateTableViewCell.swift; sourceTree = "<group>"; };
+		AB43EEC421589F07003AC606 /* StreakDateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StreakDateTableViewCell.xib; sourceTree = "<group>"; };
+		ABEF47672154B7B900987702 /* StreakDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakDetailViewController.swift; sourceTree = "<group>"; };
+		ABEF47682154B7B900987702 /* StreakDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StreakDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB0EE67C215485730091A7BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB0EE676215485730091A7BE = {
+			isa = PBXGroup;
+			children = (
+				AB0EE681215485730091A7BE /* StreakIt */,
+				AB0EE680215485730091A7BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB0EE680215485730091A7BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB0EE67F215485730091A7BE /* StreakIt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB0EE681215485730091A7BE /* StreakIt */ = {
+			isa = PBXGroup;
+			children = (
+				0333F5C121C743B4003E43E7 /* file-text.png */,
+				AB0EE682215485730091A7BE /* AppDelegate.swift */,
+				AB0EE684215485730091A7BE /* ViewController.swift */,
+				AB264B7D21548B5900EF14FE /* AddStrekTypeViewController.swift */,
+				AB264B7E21548B5900EF14FE /* AddStrekTypeViewController.xib */,
+				AB0EE686215485730091A7BE /* Main.storyboard */,
+				ABEF47672154B7B900987702 /* StreakDetailViewController.swift */,
+				ABEF47682154B7B900987702 /* StreakDetailViewController.xib */,
+				AB0EE68C215485730091A7BE /* Assets.xcassets */,
+				AB0EE68E215485730091A7BE /* LaunchScreen.storyboard */,
+				AB0EE691215485730091A7BE /* Info.plist */,
+				AB0EE689215485730091A7BE /* StreakIt.xcdatamodeld */,
+				03D423E4217699E00019F25C /* AddDayNoteViewController.swift */,
+				03D423E5217699E00019F25C /* AddDayNoteViewController.xib */,
+				AB264B8421548FD900EF14FE /* StreakType.swift */,
+				AB264B862154910500EF14FE /* StreakDay.swift */,
+				0333F5BD21C72A72003E43E7 /* DayNote.swift */,
+				AB43EEC321589F07003AC606 /* StreakDateTableViewCell.swift */,
+				AB43EEC421589F07003AC606 /* StreakDateTableViewCell.xib */,
+				03EB3A5321C5D985008733ED /* StreakTitleTableViewCell.swift */,
+			);
+			path = StreakIt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB0EE67E215485730091A7BE /* StreakIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0EE694215485730091A7BE /* Build configuration list for PBXNativeTarget "StreakIt" */;
+			buildPhases = (
+				AB0EE67B215485730091A7BE /* Sources */,
+				AB0EE67C215485730091A7BE /* Frameworks */,
+				AB0EE67D215485730091A7BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StreakIt;
+			productName = StreakIt;
+			productReference = AB0EE67F215485730091A7BE /* StreakIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB0EE677215485730091A7BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = JoshProchaska;
+				TargetAttributes = {
+					AB0EE67E215485730091A7BE = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AB0EE67A215485730091A7BE /* Build configuration list for PBXProject "StreakIt" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB0EE676215485730091A7BE;
+			productRefGroup = AB0EE680215485730091A7BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB0EE67E215485730091A7BE /* StreakIt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB0EE67D215485730091A7BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEF476A2154B7B900987702 /* StreakDetailViewController.xib in Resources */,
+				AB0EE690215485730091A7BE /* LaunchScreen.storyboard in Resources */,
+				AB0EE68D215485730091A7BE /* Assets.xcassets in Resources */,
+				AB264B8021548B5900EF14FE /* AddStrekTypeViewController.xib in Resources */,
+				03D423E7217699E00019F25C /* AddDayNoteViewController.xib in Resources */,
+				0333F5C221C743B4003E43E7 /* file-text.png in Resources */,
+				AB0EE688215485730091A7BE /* Main.storyboard in Resources */,
+				AB43EEC621589F07003AC606 /* StreakDateTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB0EE67B215485730091A7BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB264B7F21548B5900EF14FE /* AddStrekTypeViewController.swift in Sources */,
+				AB0EE68B215485730091A7BE /* StreakIt.xcdatamodeld in Sources */,
+				03EB3A5521C5D985008733ED /* StreakTitleTableViewCell.swift in Sources */,
+				0333F5BE21C72A72003E43E7 /* DayNote.swift in Sources */,
+				AB264B8521548FD900EF14FE /* StreakType.swift in Sources */,
+				AB43EEC521589F07003AC606 /* StreakDateTableViewCell.swift in Sources */,
+				AB0EE685215485730091A7BE /* ViewController.swift in Sources */,
+				ABEF47692154B7B900987702 /* StreakDetailViewController.swift in Sources */,
+				AB264B872154910500EF14FE /* StreakDay.swift in Sources */,
+				03D423E6217699E00019F25C /* AddDayNoteViewController.swift in Sources */,
+				AB0EE683215485730091A7BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB0EE686215485730091A7BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB0EE687215485730091A7BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB0EE68E215485730091A7BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB0EE68F215485730091A7BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB0EE692215485730091A7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB0EE693215485730091A7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB0EE695215485730091A7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9QA4FN3M5J;
+				INFOPLIST_FILE = StreakIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prattl.StreakIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB0EE696215485730091A7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9QA4FN3M5J;
+				INFOPLIST_FILE = StreakIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prattl.StreakIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB0EE67A215485730091A7BE /* Build configuration list for PBXProject "StreakIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0EE692215485730091A7BE /* Debug */,
+				AB0EE693215485730091A7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB0EE694215485730091A7BE /* Build configuration list for PBXNativeTarget "StreakIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0EE695215485730091A7BE /* Debug */,
+				AB0EE696215485730091A7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB0EE689215485730091A7BE /* StreakIt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB0EE68A215485730091A7BE /* StreakIt.xcdatamodel */,
+			);
+			currentVersion = AB0EE68A215485730091A7BE /* StreakIt.xcdatamodel */;
+			path = StreakIt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AB0EE677215485730091A7BE /* Project object */;
+}
